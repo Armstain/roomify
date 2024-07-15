@@ -1,0 +1,26 @@
+.mySwiper {
+  /* Target the Swiper container */
+  --swiper-theme-color: #6750a4; /* Primary Material You color */
+  --swiper-pagination-color: #6750a4; /* Match pagination to primary color */
+  --swiper-navigation-color: #1c1b1f; /* Dark navigation for contrast */
+}
+
+.mySwiper .swiper-slide {
+  border-radius: 16px; /* Rounded corners */
+  overflow: hidden;
+}
+
+.mySwiper .swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  background-color: #eaddff; /* Lighter shade for inactive pagination bullets */
+  opacity: 1;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #6750a4; /* Active bullet in primary color */
+}
